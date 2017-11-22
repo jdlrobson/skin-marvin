@@ -1,0 +1,53 @@
+{
+	"AutoloadClasses": {
+		"SkinMarvin": "SkinMarvin.php",
+		"SkinMarvinTemplate": "SkinMarvinTemplate.php"
+	},
+	"ConfigRegistry": {
+		"marvin": "GlobalVarConfig::newInstance"
+	},
+	"Hooks": {
+	},
+	"MessagesDirs": {
+		"Marvin": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Marvin"
+	},
+	"ResourceModules": {
+		"skins.marvin.styles": {
+			"targets": [
+				"mobile",
+				"desktop"
+			],
+			"styles": [
+				"dist/index.css"
+			]
+		},
+		"skins.marvin.scripts": {
+			"targets": [
+				"mobile",
+				"desktop"
+			],
+			"scripts": [
+				"dist/index.js"
+			]
+		}
+	},
+	"ValidSkinNames": {
+		"marvin": "Marvin"
+	},
+	"author": [],
+	"config": {},
+	"descriptionmsg": "marvin-skin-desc",
+	"license-name": "GPL-2.0+",
+	"manifest_version": 1,
+	"name": "Marvin",
+	"namemsg": "skinname-marvin",
+	"requires": {},
+	"type": "skin",
+	"url": "https://www.mediawiki.org/wiki/Marvin"
+}

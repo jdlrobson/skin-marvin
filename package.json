@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"scripts": {
+		"clean": "rm -rf dist && mkdir dist",
+		"release-weekipedia": "cd weekipedia && npm install && npm run compile-prod && mv public/style.css ../dist/index.css && mv public/main-bundle.js ../dist/index.js",
+		"release": "cd marvin && npm install && npm run build && mv dist/index.*css dist/index.css && mv dist/runtime*.js dist/runtime.js && mv dist/index.*js dist/index.js && mv dist/vendor*.js dist/vendor.js && mv dist/public/* ../dist/"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}

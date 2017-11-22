@@ -1,0 +1,6 @@
+[submodule "marvin"]
+	path = marvin
+	url = https://github.com/wikimedia/marvin.git
+[submodule "weekipedia"]
+	path = weekipedia
+	url = https://github.com/jdlrobson/weekipedia.git
